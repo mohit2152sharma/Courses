@@ -1,10 +1,12 @@
 # Questions
-Question for lecture 1 can be [here](https://missing.csail.mit.edu/2020/course-shell/)
+Question for lecture 1 can be found [here](https://missing.csail.mit.edu/2020/course-shell/)
 
 # Answers
 1. Question 4:
-   - The command is:`echo '#!/bin/sh
-curl --head --silent https://missing.csail.mit.edu' > semester`
+   - The command is:```
+   echo '#!/bin/sh
+   curl --head --silent https://missing.csail.mit.edu' > semester
+   ```
    - Using double quotes with `#!` would result in an error, as `!` has a special meaning in bash scripting, the she bang operator.
    - To insert new line character just press enter
 2. Question 5:
