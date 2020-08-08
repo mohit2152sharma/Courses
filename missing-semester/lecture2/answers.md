@@ -16,6 +16,7 @@
 	cd "$cwd"
    } 
    ```
+
 3. Question 3
    ```
    counter=0
@@ -28,7 +29,11 @@
 	fi
    done
    ```
+
 4. Question 4
+
    `ls *.html | xargs tar -cf archive.tar`
+
 5. Question 5
+
    `find . -type f -not -path '*/\.*' -printf '%TY.%Tm.%Td %THh%TM %Ta %p\n' |sort -nr |head -n 10`
