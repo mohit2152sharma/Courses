@@ -17,17 +17,10 @@
    } 
    ```
 3. Question 3
-<<<<<<< HEAD
    ```
    counter=0
 
    while true; do
-=======
-  ```
-counter=0
-
-while true; do
->>>>>>> cfc3450de8e6d2d61863f097d79f3f5dd3c09276
 	source q3.sh >> q3_output.txt
 	if [[ $? -ne 0 ]]; then
 		counter=$(( $counter + 1 ))
@@ -36,13 +29,6 @@ while true; do
    done
    ```
 4. Question 4
-<<<<<<< HEAD
    `ls *.html | xargs tar -cf archive.tar`
 5. Question 5
    `find . -type f -not -path '*/\.*' -printf '%TY.%Tm.%Td %THh%TM %Ta %p\n' |sort -nr |head -n 10`
-=======
-`ls *.html | xargs tar -cf archive.tar`
-
-5. Question 5
-`find . -type f -not -path '*/\.*' -printf '%TY.%Tm.%Td %THh%TM %Ta %p\n' |sort -nr |head -n 10`
->>>>>>> cfc3450de8e6d2d61863f097d79f3f5dd3c09276
