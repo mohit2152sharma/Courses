@@ -1,4 +1,4 @@
-# Lecture 3
+# Lecture 4
 
 1. Question 4
    1. Maximum value
