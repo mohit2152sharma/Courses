@@ -1,18 +1,21 @@
-# Lecture 5
+# Lecture 5: Command-line Environment
 
-1. Question 2
-   1. `git clone git@github.com:missing-semester/missing-semester.git`
-   2. `git log -s -n1 --pretty="format:Last Author: %an%nAuthor email: %ae%nTime: %ad%n" ./README.md`
-   3. `git blame ./README.md`
-2. Question 3
-   Binaries like images, videos if committed, would make the size of git repository very large.
-3. Question 4
-   Suppose you are working on a branch and changes are not yet completed and suddenly you get a pressing issue that needs to be fixed with your latest relase. What `git stash` would do is, it would temporarily hold off to your dirty work in a stack and would allow you to work from your last commit and fix the issue. Once the issue is fixed, you can commit those changes, and pop out the stashed work from latest work. 
-   `git stash pop` would pop the work from stack to current branch.
-4. Question 5
-   `git config --global alias.graph "log --all --graph --decorate --oneline"
-5. Question 6
-   `git config --global core.excludesfile ~/.gitignore`
-   `echo '.vscode/*' >> ~/.gitignore`
+Question for lecture 5 can be found [here](https://missing.csail.mit.edu/2020/command-line/)
 
+## Aliases
+1. `alias dc='cd'`
+2. Edit `~/.bashrc` to load the aliases whenever the shell starts
+   1. `alias aa='git add --all'`
+   2. `alias po='git push origin master`
+
+## Dotfiles
+1. Create a `dotfiles` folder -> Use `git init` to initialize the version control -> create the `.vimrc` and `.bashrc` files (or simply move those files from home directory)
+2. Use symlink to establish the link between `dotfiles` files and home directory
+   ```
+   ln -s -v ~+/.vimrc ~
+   ln -sv ~+/.bashrc ~
+   ```
+
+## Job Control and Remote Machines
+Not able to get it working because of WSL (Windows subsystem for Linux) bug.
  

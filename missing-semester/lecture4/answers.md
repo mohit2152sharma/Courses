@@ -1,4 +1,6 @@
-# Lecture 4
+# Lecture 4: Data Wrangling
+
+Question for lecture 4 can be found [here](https://missing.csail.mit.edu/2020/data-wrangling/)
 
 1. Question 4
    1. Maximum value

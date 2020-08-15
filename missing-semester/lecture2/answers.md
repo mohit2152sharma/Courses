@@ -1,4 +1,7 @@
-# Lecture 2
+# Lecture 2: Shell Tools and Scripting
+
+Question for lecture 2 can be found [here](https://missing.csail.mit.edu/2020/shell-tools/)
+
 1. Question 1
    1. `ls --all`
    2. `ls --all --human-readable -l`

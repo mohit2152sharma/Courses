@@ -1,4 +1,5 @@
-# Questions
+# Lecture 1: The Shell
+
 Question for lecture 1 can be found [here](https://missing.csail.mit.edu/2020/course-shell/)
 
 # Answers
